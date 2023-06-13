@@ -1,0 +1,26 @@
+.searchList{
+    /* background-color: wheat; */
+    width:100%;
+    color: black !important;
+}
+.searchList .products{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    align-items: center;
+    border-bottom: 2px solid olivedrab;
+
+
+}
+
+
+.searchList .products img{
+    width: 5rem;
+    border-radius: 11%;
+    object-fit: cover;
+    padding:10px
+}
+.searchList a{
+    color: #646d7a !important;}
+    .searchList a:hover{
+        color: #e23a2b !important;}

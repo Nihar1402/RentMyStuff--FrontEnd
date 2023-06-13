@@ -1,0 +1,108 @@
+.searchbarcontainer{
+  
+    background-color: rgba(255,255,255,.9);
+    height: 4rem;
+    border-radius: 50px;
+    box-shadow: 0 0 3rem rgb(11 30 52 / 8%);
+    transition: background-color .15s ease-in-out;
+    transition-property: background-color;
+    transition-duration: .15s;
+    transition-timing-function: ease-in-out;
+    width: 40%;
+    transition-delay: 0s;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    font-family: "Work Sans",sans-serif !important;
+    justify-content: space-between;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0.01px 1px 10px;
+    margin-left: 20px;
+   
+
+
+  }
+  .searchbarcontainer input{
+border: none;
+flex-grow: 0.7;
+  }
+  .searchbarcontainer button{
+    background-color: #ea554a !important;
+    border-color: #ea554a !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    
+  }
+
+  .searchtopcontainer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top:10px ;
+  
+  }
+  .btn-getall{
+    background-color: #ea554a !important;
+    border-color: #ea554a !important;
+    color: #fff !important;
+    position: relative;
+    text-transform: none;
+    transition: all .15s ease;
+    letter-spacing: .025em;
+    font-size: .875rem;
+    will-change: transform;
+    display: inline-block;
+    font-weight: 600;
+    color: #525f7f;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    margin-left: 40px;
+    width: 100px;
+    opacity: 0.8;
+  }
+  .searchbarcontainer select{
+    border: none;
+    flex-grow: 0.7;
+    font-family: "Work Sans",sans-serif !important;
+    box-shadow: none;
+    opacity: 0.7;
+      }
+      .searchbarcontainer select:focus{
+     
+        box-shadow: none !important;
+          }
+          .searchbarcontainer option{
+           
+            font-family: "Work Sans",sans-serif !important;
+            box-shadow: none;
+            opacity: 0.7;
+              }
+
+
+
+.searchListContainer{
+  position:absolute;
+  z-index: 1;
+  top: 43%;
+  /* background-color: white; */
+    left: 29%;
+    width: 44%;
+    overflow: auto;
+    background-color:#F1F1F3;
+    /* border-radius: 50px; */
+    padding-left:1rem ;
+    max-height: 19rem;
+    margin-top: 26px;
+}
